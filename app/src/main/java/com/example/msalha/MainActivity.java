@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         int height = Integer.parseInt(gethe.getText().toString());
         double rsult = ((-76.76+4.15*height-0.082*weight)/weight)*10;
         Toast.makeText(this,String.valueOf(rsult)+"%",Toast.LENGTH_LONG).show();
-        adasdasd;
+
     }
 }
